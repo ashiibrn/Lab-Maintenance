@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}        
+html, body{
+    height: 100%;
+}
+/* body #root{
+    padding: 0;
+    margin: 0;
+} */
+.ultra_container{
+    display: flex;
+}
+.main_container1{
+    height: 100vh;
+    width: 50vw;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.caption_box1{
+    font-family: 'Space Mono', monospace;
+}
+
+.h-1{
+    font-size: clamp(1.25rem, 1.1685rem + 1.8116vw, 2.1875rem);
+}
+.h-2{
+    font-size: clamp(2.1875rem, 2.0516rem + 3.0193vw, 3.75rem);
+}
+.tl-1{
+    font-size: clamp(0.625rem, 0.5707rem + 1.2077vw, 1.25rem);
+    color: #A4A4A4;
+}
+.form_group1{
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    gap: 1rem; /* Space between input fields */
+    justify-content: center;
+    align-items: center;
+}
+.form_group1 .input1 input{
+    height: 45px;
+    width: 450px;
+    border: solid 3px #678B2B;
+    border-radius: 35px;
+    font-family: 'Space Mono', monospace;
+    font-size: clamp(0.5rem, 0.4457rem + 1.2077vw, 1.125rem);
+    padding-left: 40px;
+}
+.input1 img{
+    position: relative;
+    left: 40px;
+    top: 5px;
+}
+.form_group1 button{
+    height: 45px;
+    width: 350px;
+    border: solid 3px #5E8125;
+    border-radius: 50px;
+    background-color: #0A5F2C;
+    color: #ffffff;
+    font-size: clamp(0.75rem, 0.6957rem + 1.2077vw, 1.375rem);
+    font-family: 'Space Mono', monospace;
+    box-shadow: 3px 7px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.main_container2{
+    height: 100vh;
+    width: 50vw;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(#0C6B31, #7DBF67, #EBD146);
+}
+.caption_box2{
+    display: flex;
+    background-color: rgba(8, 73, 51, 0.4);
+    padding: 30px;
+    border: solid 1px #ffffff;
+    border-radius: 35px;
+}
+.caption_box2 p{
+    font-family: 'Space Mono', monospace;
+    color: #ffffff;
+    font-size: clamp(0.8125rem, 0.7473rem + 1.4493vw, 1.5625rem);
+}
+.button2{
+    width: 70px;
+    height: 70px;
+    border: solid 1px white;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 5px;
+}

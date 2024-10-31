@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    height: 100%;
+}
+body #root{
+    margin: 0;
+    padding: 0;
+}
+.ultra_container{
+    display: flex;
+}
+.main_container1{
+    height: 100vh;
+    width: 50vw;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(#042B54, #446B83, #9DA6AD);
+}
+.caption1{
+    display: flex;
+    background-color: rgba(8, 73, 51, 0.4);
+    padding: 30px;
+    border: solid 1px #ffffff;
+    border-radius: 35px;
+}
+.caption1 p{
+    font-family: 'Space Mono', monospace;
+    color: #ffffff;
+    font-size: clamp(0.8125rem, 0.7473rem + 1.4493vw, 1.5625rem);
+}
+.button2{
+    width: 70px;
+    height: 70px;
+    border: solid 1px white;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 5px;
+}
+.main_container2{
+    height: 100vh;
+    width: 50vw;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.heading2{
+    font-family: "Microsoft Sans Serif", sans-serif;
+}
+.heading2 h6{
+    font-size: clamp(1.25rem, 1.1685rem + 1.8116vw, 2.1875rem);
+}
+.heading2 h5{
+    font-size: clamp(2.1875rem, 2.0516rem + 3.0193vw, 3.75rem);
+}
+.registration2{
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    gap: 1rem; /* Space between input fields */
+    justify-content: center;
+    align-items: center;
+}
+
+.registration2 input{
+    height: 45px;
+    width: 450px;
+    border: solid 3px #042B54;
+    border-radius: 35px;
+    font-family: 'Space Mono', monospace;
+    font-size: clamp(0.5rem, 0.4457rem + 1.2077vw, 1.125rem);
+    padding-left: 25px;
+}
+.registration2 button{
+    height: 45px;
+    width: 350px;
+    border: solid 3px #9DA6AD;
+    border-radius: 50px;
+    background-color: #042B54;
+    color: #ffffff;
+    font-size: clamp(0.75rem, 0.6957rem + 1.2077vw, 1.375rem);
+    font-family: 'Space Mono', monospace;
+    box-shadow: 3px 7px 4px 0 rgba(0, 0, 0, 0.25);;
+}
+.selection2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: clamp(0.75rem, 0.6957rem + 1.2077vw, 1.375rem);
+    color: #042B54;
+}
+.selection2 select{
+    height: 45px;
+    width: 200px;
+    border: solid 3px #042B54;
+    border-radius: 35px;
+    font-family: 'Space Mono', monospace;
+    font-size: clamp(0.5rem, 0.4457rem + 1.2077vw, 1.125rem);
+    padding: 0 15px;
+}
+.selection2 select option{
+    font-size: clamp(0.4375rem, 0.394rem + 0.9662vw, 0.9375rem);
+    color: #000000;
+}
